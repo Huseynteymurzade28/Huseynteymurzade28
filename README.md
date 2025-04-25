@@ -65,4 +65,7 @@
   <a href="mailto:huseynteymurrr74@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://www.codewars.com/users/Huseyn%20Teymurzade" target="blank">
+  <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" />
+  </a>
 </div>
