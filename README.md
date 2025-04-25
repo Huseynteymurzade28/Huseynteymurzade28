@@ -1,7 +1,5 @@
 # <div align="center">👨‍💻 Hüseyn Teymurzade 👨‍💻</div>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Software+Developer;Algorithm+Enthusiast;Data+Structure+Specialist&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22">
-</div>
+
 
 <div align="center">
   <img src="https://img.shields.io/badge/Focus-Algorithms-blue?style=for-the-badge&logo=leetcode" />
