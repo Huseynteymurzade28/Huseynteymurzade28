@@ -1,4 +1,7 @@
 # <div align="center">👨‍💻 Hüseyn Teymurzade 👨‍💻</div>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Software+Developer;Algorithm+Enthusiast;Data+Structure+Specialist&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22">
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Focus-Algorithms-blue?style=for-the-badge&logo=leetcode" />
@@ -61,7 +64,7 @@
   <a href="https://www.leetcode.com/flearlyly" target="blank">
     <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" />
   </a>
-  <a href="mailto:contact@example.com">
+  <a href="mailto:huseynteymurrr74@gmail.com.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
