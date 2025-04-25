@@ -55,7 +55,7 @@
 ## <div align="center">📫 Connect With Me 📫</div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/hüseyn-teymurzade" target="_blank">
+  <a href="www.linkedin.com/in/hüseyn-teymurzade-9492a92b3" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
   <a href="https://www.leetcode.com/flearlyly" target="blank">
