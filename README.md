@@ -64,7 +64,7 @@
   <a href="https://www.leetcode.com/flearlyly" target="blank">
     <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" />
   </a>
-  <a href="mailto:huseynteymurrr74@gmail.com.com">
+  <a href="mailto:huseynteymurrr74@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
