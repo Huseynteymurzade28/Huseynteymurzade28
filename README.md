@@ -44,12 +44,12 @@
 ## <div align="center">📊 GitHub Stats 📊</div>
 
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Huseynteymurzade28&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="Hüseyn Teymurzade GitHub Stats" /> 
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Huseynteymurzade28&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&cache_seconds=60&text_color=c9d1d9&bg_color=0d1117" alt="Hüseyn Teymurzade GitHub Stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Huseynteymurzade28&layout=compact&cache_seconds=60&hide_border=true&title_color=ff91a4&text_color=ff91a4&bg_color=0d1117" />
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Huseynteymurzade28&theme=radical&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Huseynteymurzade28&theme=radical&hide_border=true&cache_seconds=60" />
 </div>
 
 ## <div align="center">📫 Connect With Me 📫</div>
