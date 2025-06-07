@@ -52,9 +52,7 @@
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Huseynteymurzade28&theme=radical&hide_border=true" />
 </div>
 
-
 ## <div align="center">📫 Connect With Me 📫</div>
-
 <div align="center">
   <a href="https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
