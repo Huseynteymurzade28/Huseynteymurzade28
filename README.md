@@ -21,7 +21,7 @@
 - 🌱 Exploring advanced algorithms and data structures
 - 👯 Looking to collaborate on open source projects
 - 🔭 Working on personal coding projects
-- 📚 Exploring the fascinating world of AI, machine learning, and systems programming
+- 📚 Exploring the fascinating world of Software
 
 ## <div align="center">🛠️ Tech Stack 🛠️</div>
 
