@@ -1,143 +1,136 @@
+# <div align="center">🎮 Hüseyn Teymurzade 🎮</div>
+
 <div align="center">
+  
+```
+██╗  ██╗██╗   ██╗███████╗███████╗██╗   ██╗███╗   ██╗
+██║  ██║██║   ██║██╔════╝██╔════╝╚██╗ ██╔╝████╗  ██║
+███████║██║   ██║███████╗█████╗   ╚████╔╝ ██╔██╗ ██║
+██╔══██║██║   ██║╚════██║██╔══╝    ╚██╔╝  ██║╚██╗██║
+██║  ██║╚██████╔╝███████║███████╗   ██║   ██║ ╚████║
+╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═══╝
+```
 
-<img src="./assets/banner.svg" alt="huseyn teymurzade" width="800"/>
-
-[![Typing](https://readme-typing-svg.demolab.com?font=VT323&size=28&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=720&height=50&lines=%3E+wake+up%2C+neo...;%3E+the+system+is+watching.;%3E+compiling+the+future...;%3E+access+granted_)](https://github.com/flearlyly)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F700&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Computer+Engineering+Student;Problem+Solver+%26+Code+Enthusiast;Building+Tomorrow's+Technology+Today" alt="Typing SVG" />
 
 </div>
 
----
+
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
+### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
+
+```python
+class Developer:
+    def __init__(self):
+        self.name = "Hüseyn Teymurzade"
+        self.university = "Marmara University"
+        self.major = "Computer Engineering"
+        self.interests = [
+            "Software Development",
+            "Problem Solving",
+            "System Design",
+            "Open Source"
+        ]
+        self.learning = "Everything"
+        self.status = "Ready for opportunities"
+    
+    def say_hi(self):
+        print("Thanks for stopping by! Let's build something amazing together!")
+
+me = Developer()
+me.say_hi()
+```
+
+<br>
+
+### 🎯 What Drives Me
+
+```diff
++ 💡 Exploring diverse areas of computer science
++ 🛠️ Building practical solutions to real-world problems
++ 🤝 Contributing to open source communities
++ 📈 Continuous learning and skill development
++ 🌟 Creating impactful software projects
+```
+
+<br>
+
+## <div align="center">⚡ Tech Arsenal ⚡</div>
 
 <div align="center">
 
-### `╳  T R A N S M I S S I O N   I N C O M I N G  ╳`
+### 💻 Programming Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 
-<img src="./assets/space-invaders.svg" alt="Space Invaders demo attract mode" width="780"/>
+### 🔧 Tools & Technologies
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
+
+### 📊 Development Platforms
+![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)
+![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white)
 
 </div>
 
----
+### 🌟 Currently Exploring
 
-## `▌ identity`
+```rust
+struct CurrentFocus {
+    learning: Vec<&'static str>,
+    working_on: Vec<&'static str>,
+    looking_for: Vec<&'static str>,
+    fun_fact: &'static str,
+}
 
-```c
-#include <reality.h>
-#include <coffee.h>
-
-typedef struct {
-    const char* handle;
-    const char* origin;
-    const char* shell;
-    int         coffees_per_day;
-    bool        debugger_attached;
-} operator_t;
-
-operator_t self = {
-    .handle            = "huso",
-    .origin            = "marmara.edu // computer engineering",
-    .shell             = "/bin/zsh on arch linux",
-    .coffees_per_day   = 0x07,
-    .debugger_attached = false,   // i print, therefore i am
-};
-
-int main(void) {
-    while (alive(self)) {
-        learn();
-        build();
-        break_things();
-        fix_things();
+impl CurrentFocus {
+    fn new() -> Self {
+        Self {
+            learning: vec![
+                "Advanced Algorithms",
+                "System Design",
+                "Software Architecture"
+            ],
+            working_on: vec![
+                "Personal Projects",
+                "Open Source Contributions"
+            ],
+            looking_for: vec![
+                "Internship Opportunities",
+                "Collaboration Projects"
+            ],
+            fun_fact: "I debug with println!() and I'm not ashamed! 🎮"
+        }
     }
-    return 42;
 }
 ```
 
-```diff
-@@ MISSION BRIEF @@
-- comfort zones
-- premade solutions
-- "it works on my machine"
-+ low-level curiosity
-+ open source warfare
-+ systems that don't suck
-+ shipping > perfection
-```
-
----
-
-## `▌ ./run --tech-arsenal`
-
 <div align="center">
 
-**` LANGUAGES `**
+## 📫 Let's Connect!
 
-![Rust](https://img.shields.io/badge/RUST-0a0a0a?style=flat-square&logo=rust&logoColor=00ff41&labelColor=000000)
-![C](https://img.shields.io/badge/C-0a0a0a?style=flat-square&logo=c&logoColor=00ff41&labelColor=000000)
-![C++](https://img.shields.io/badge/C++-0a0a0a?style=flat-square&logo=cplusplus&logoColor=00ff41&labelColor=000000)
-![Go](https://img.shields.io/badge/GO-0a0a0a?style=flat-square&logo=go&logoColor=00ff41&labelColor=000000)
-![Python](https://img.shields.io/badge/PYTHON-0a0a0a?style=flat-square&logo=python&logoColor=00ff41&labelColor=000000)
-![TypeScript](https://img.shields.io/badge/TS-0a0a0a?style=flat-square&logo=typescript&logoColor=00ff41&labelColor=000000)
-![C#](https://img.shields.io/badge/C%23-0a0a0a?style=flat-square&logo=sharp&logoColor=00ff41&labelColor=000000)
-![Lua](https://img.shields.io/badge/LUA-0a0a0a?style=flat-square&logo=lua&logoColor=00ff41&labelColor=000000)
+<a href="https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:huseynteymurrr74@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://www.leetcode.com/flearlyly" target="_blank">
+  <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
+</a>
+<a href="https://www.codewars.com/users/Huseyn%20Teymurzade" target="_blank">
+  <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" />
+</a>
 
-**` SYSTEMS & TOOLS `**
-
-![Arch](https://img.shields.io/badge/ARCH%20LINUX-0a0a0a?style=flat-square&logo=archlinux&logoColor=ff003c&labelColor=000000)
-![Neovim](https://img.shields.io/badge/NEOVIM-0a0a0a?style=flat-square&logo=neovim&logoColor=ff003c&labelColor=000000)
-![Git](https://img.shields.io/badge/GIT-0a0a0a?style=flat-square&logo=git&logoColor=ff003c&labelColor=000000)
-![Docker](https://img.shields.io/badge/DOCKER-0a0a0a?style=flat-square&logo=docker&logoColor=ff003c&labelColor=000000)
-![Nix](https://img.shields.io/badge/NIX-0a0a0a?style=flat-square&logo=nixos&logoColor=ff003c&labelColor=000000)
-![KDE](https://img.shields.io/badge/KDE-0a0a0a?style=flat-square&logo=kde&logoColor=ff003c&labelColor=000000)
-![Unity](https://img.shields.io/badge/UNITY-0a0a0a?style=flat-square&logo=unity&logoColor=ff003c&labelColor=000000)
-![Electron](https://img.shields.io/badge/ELECTRON-0a0a0a?style=flat-square&logo=electron&logoColor=ff003c&labelColor=000000)
-
-</div>
-
----
-
-## `▌ cat ~/.now`
-
-```rust
-// last sync :: dispatch from sector 34
-
-const STATUS: Dispatch = Dispatch {
-    learning:    &["lock-free data structures", "OS internals", "compilers"],
-    building:    &["personal tooling", "side quests nobody asked for"],
-    grinding:    &["leetcode", "codewars", "real systems"],
-    available:   Availability::OpenForIntern,
-    location:    Location::Istanbul,
-};
-
-// "the cake is a lie, but the segfault is real."
-```
-
----
-
-## `▌ ./stats`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=flearlyly&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=ff003c&icon_color=00ff41&text_color=00ff41" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=flearlyly&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=ff003c&text_color=00ff41" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=flearlyly&theme=dark&hide_border=true&background=000000&stroke=00ff41&ring=ff003c&fire=ff003c&currStreakLabel=00ff41&sideLabels=00ff41&dates=00ff41&currStreakNum=00ff41&sideNums=00ff41" width="60%"/>
-
-</div>
-
----
-
-## `▌ ./connect`
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=00ff41&labelColor=000000)](https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3)
-[![Email](https://img.shields.io/badge/-MAIL-0a0a0a?style=for-the-badge&logo=protonmail&logoColor=ff003c&labelColor=000000)](mailto:huseynteymurrr74@gmail.com)
-[![LeetCode](https://img.shields.io/badge/-LEETCODE-0a0a0a?style=for-the-badge&logo=leetcode&logoColor=00ff41&labelColor=000000)](https://www.leetcode.com/flearlyly)
-[![Codewars](https://img.shields.io/badge/-CODEWARS-0a0a0a?style=for-the-badge&logo=codewars&logoColor=ff003c&labelColor=000000)](https://www.codewars.com/users/Huseyn%20Teymurzade)
-
-<br/>
-
-<sub>`signal lost ▒▒▒░░░░░░░  //  end of transmission  //  0xDEADBEEF`</sub>
-
-</div>
