@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="800" height="140" font-family="'VT323','Courier New',monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#0a0014"/>
+    </linearGradient>
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="2" height="3" patternUnits="userSpaceOnUse">
+      <rect width="2" height="1" fill="#00ff41" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="140" fill="url(#bg)"/>
+
+  <!-- frame -->
+  <rect x="6" y="6" width="788" height="128" fill="none" stroke="#ff003c" stroke-width="1" opacity="0.55"/>
+  <rect x="10" y="10" width="780" height="120" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.35"/>
+
+  <!-- corner brackets -->
+  <g fill="#ff003c" filter="url(#g)">
+    <rect x="10" y="10" width="14" height="2"/><rect x="10" y="10" width="2" height="14"/>
+    <rect x="776" y="10" width="14" height="2"/><rect x="788" y="10" width="2" height="14"/>
+    <rect x="10" y="128" width="14" height="2"/><rect x="10" y="116" width="2" height="14"/>
+    <rect x="776" y="128" width="14" height="2"/><rect x="788" y="116" width="2" height="14"/>
+  </g>
+
+  <!-- main title -->
+  <text x="400" y="68" text-anchor="middle" fill="#00ff41" font-size="56" letter-spacing="14" filter="url(#g)">
+    HUSEYN
+  </text>
+  <text x="400" y="68" text-anchor="middle" fill="#ff003c" font-size="56" letter-spacing="14" opacity="0.55">
+    <animate attributeName="x" values="400;402;398;400;400;400" keyTimes="0;0.1;0.2;0.3;0.6;1" dur="6s" repeatCount="indefinite"/>
+    HUSEYN
+  </text>
+
+  <!-- subtitle -->
+  <text x="400" y="96" text-anchor="middle" fill="#00ff41" font-size="16" letter-spacing="6" opacity="0.85" filter="url(#g)">
+    T E Y M U R Z A D E
+  </text>
+
+  <!-- bottom strip -->
+  <text x="22" y="122" fill="#ff003c" font-size="12" letter-spacing="2" filter="url(#g)">[ SECTOR 34 ]</text>
+  <text x="400" y="122" text-anchor="middle" fill="#00ff41" font-size="12" letter-spacing="3" filter="url(#g)">
+    &gt; SYSTEM ONLINE
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+  <text x="778" y="122" text-anchor="end" fill="#ff003c" font-size="12" letter-spacing="2" filter="url(#g)">v.4.04</text>
+
+  <!-- scanlines -->
+  <rect width="800" height="140" fill="url(#scan)" pointer-events="none"/>
+</svg>
