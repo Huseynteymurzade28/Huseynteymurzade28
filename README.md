@@ -40,7 +40,7 @@ me.say_hi()
 ### ✦ main skills
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,jupyter,postgresql,react,latex&theme=dark&perline=7" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,arduino,neovim,postgresql,react,latex&theme=dark&perline=7" alt="skills" />
 </a>
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-coffee.svg" width="400" alt="divider" />
