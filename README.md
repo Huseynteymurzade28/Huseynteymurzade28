@@ -1,4 +1,4 @@
-<img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="70" alt="" />
+<img width="514" height="212" alt="image" src="https://github.com/user-attachments/assets/079ee296-c005-4049-9b02-4a1cb406bb3c" /><img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="70" alt="" />
 <img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-bird.svg" width="70" alt="" />
 
 <div align="center">
@@ -40,7 +40,7 @@ me.say_hi()
 ### ✦ main skills
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,jupyter,sqlite,latex&theme=dark&perline=7" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,jupyter,postgresql,react,latex&theme=dark&perline=7" alt="skills" />
 </a>
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-coffee.svg" width="400" alt="divider" />
