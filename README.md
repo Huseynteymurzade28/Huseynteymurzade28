@@ -3,7 +3,7 @@
 
 <div align="center">
 
-# Hi, i'm Hüseyn 🌱
+# Hi, I'm Hüseyn 🌱
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=A6E3A1&center=true&vCenter=true&width=500&height=40&lines=computer+engineering+%40+marmara;curious+about+low-level+%26+systems;chasing+clean+code+%26+clever+ideas;always+learning+%2C+always+tinkering" alt="typing" />
 
