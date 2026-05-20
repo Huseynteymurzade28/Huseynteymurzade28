@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" shape-rendering="crispEdges" preserveAspectRatio="none">
+  <defs>
+    <style>
+      @keyframes drift {
+        0%, 100% { transform: translateX(0); }
+        50% { transform: translateX(-8px); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      .wave1 { animation: drift 6s ease-in-out infinite; }
+      .wave2 { animation: drift 8s ease-in-out infinite reverse; }
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .star:nth-child(2) { animation-delay: 0.8s; }
+      .star:nth-child(3) { animation-delay: 1.6s; }
+      .star:nth-child(4) { animation-delay: 2.2s; }
+    </style>
+  </defs>
+  <!-- background sky gradient (pixel blocks) -->
+  <g fill="#1e1e2e">
+    <rect x="0" y="0" width="800" height="8"/>
+  </g>
+  <g fill="#313244">
+    <rect x="0" y="8" width="800" height="8"/>
+  </g>
+  <g fill="#45475a">
+    <rect x="0" y="16" width="800" height="8"/>
+  </g>
+  <!-- twinkling stars -->
+  <g fill="#f9e2af">
+    <rect class="star" x="80" y="6" width="4" height="4"/>
+    <rect class="star" x="240" y="12" width="4" height="4"/>
+    <rect class="star" x="420" y="4" width="4" height="4"/>
+    <rect class="star" x="620" y="10" width="4" height="4"/>
+    <rect class="star" x="720" y="6" width="4" height="4"/>
+  </g>
+  <!-- back wave (pixel mountains) -->
+  <g class="wave2" fill="#74c7ec" opacity="0.6">
+    <rect x="0"   y="40" width="40" height="40"/>
+    <rect x="40"  y="36" width="40" height="44"/>
+    <rect x="80"  y="32" width="40" height="48"/>
+    <rect x="120" y="36" width="40" height="44"/>
+    <rect x="160" y="40" width="40" height="40"/>
+    <rect x="200" y="36" width="40" height="44"/>
+    <rect x="240" y="32" width="40" height="48"/>
+    <rect x="280" y="36" width="40" height="44"/>
+    <rect x="320" y="40" width="40" height="40"/>
+    <rect x="360" y="36" width="40" height="44"/>
+    <rect x="400" y="32" width="40" height="48"/>
+    <rect x="440" y="36" width="40" height="44"/>
+    <rect x="480" y="40" width="40" height="40"/>
+    <rect x="520" y="36" width="40" height="44"/>
+    <rect x="560" y="32" width="40" height="48"/>
+    <rect x="600" y="36" width="40" height="44"/>
+    <rect x="640" y="40" width="40" height="40"/>
+    <rect x="680" y="36" width="40" height="44"/>
+    <rect x="720" y="32" width="40" height="48"/>
+    <rect x="760" y="36" width="40" height="44"/>
+  </g>
+  <!-- front wave (pixel hills) -->
+  <g class="wave1" fill="#a6e3a1">
+    <rect x="0"   y="56" width="40" height="24"/>
+    <rect x="40"  y="52" width="40" height="28"/>
+    <rect x="80"  y="48" width="40" height="32"/>
+    <rect x="120" y="52" width="40" height="28"/>
+    <rect x="160" y="56" width="40" height="24"/>
+    <rect x="200" y="52" width="40" height="28"/>
+    <rect x="240" y="48" width="40" height="32"/>
+    <rect x="280" y="52" width="40" height="28"/>
+    <rect x="320" y="56" width="40" height="24"/>
+    <rect x="360" y="52" width="40" height="28"/>
+    <rect x="400" y="48" width="40" height="32"/>
+    <rect x="440" y="52" width="40" height="28"/>
+    <rect x="480" y="56" width="40" height="24"/>
+    <rect x="520" y="52" width="40" height="28"/>
+    <rect x="560" y="48" width="40" height="32"/>
+    <rect x="600" y="52" width="40" height="28"/>
+    <rect x="640" y="56" width="40" height="24"/>
+    <rect x="680" y="52" width="40" height="28"/>
+    <rect x="720" y="48" width="40" height="32"/>
+    <rect x="760" y="52" width="40" height="28"/>
+  </g>
+</svg>
