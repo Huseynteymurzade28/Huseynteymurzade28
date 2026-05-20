@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      @keyframes flap {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-3px); }
+      }
+      @keyframes wing-flap {
+        0%, 100% { transform: scaleY(1); }
+        50%      { transform: scaleY(0.6); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50%      { opacity: 1; }
+      }
+      .bird  { animation: flap 2.5s ease-in-out infinite; }
+      .wing  { animation: wing-flap 0.6s ease-in-out infinite; transform-origin: center; }
+      .spark1 { animation: twinkle 2.5s ease-in-out infinite 0.5s; }
+      .spark2 { animation: twinkle 2.5s ease-in-out infinite 1.5s; }
+    </style>
+  </defs>
+
+  <g class="bird">
+    <!-- bird body -->
+    <rect x="22" y="26" width="14" height="4" fill="#45475a"/>
+    <rect x="20" y="28" width="18" height="4" fill="#45475a"/>
+    <rect x="24" y="32" width="12" height="2" fill="#313244"/>
+
+    <!-- head -->
+    <rect x="34" y="24" width="6" height="6" fill="#45475a"/>
+    <rect x="36" y="22" width="4" height="2" fill="#45475a"/>
+
+    <!-- beak -->
+    <rect x="40" y="26" width="3" height="2" fill="#fab387"/>
+
+    <!-- eye -->
+    <rect x="37" y="25" width="1" height="1" fill="#f9e2af"/>
+
+    <!-- wing (flapping) -->
+    <g class="wing">
+      <rect x="22" y="20" width="10" height="2" fill="#313244"/>
+      <rect x="20" y="22" width="14" height="4" fill="#313244"/>
+      <rect x="22" y="26" width="10" height="2" fill="#45475a"/>
+      <!-- wing detail -->
+      <rect x="24" y="22" width="2" height="2" fill="#1e1e2e"/>
+      <rect x="28" y="22" width="2" height="2" fill="#1e1e2e"/>
+    </g>
+
+    <!-- tail -->
+    <rect x="14" y="28" width="6" height="2" fill="#313244"/>
+    <rect x="12" y="30" width="8" height="2" fill="#313244"/>
+  </g>
+
+  <!-- sparkles around bird -->
+  <rect class="spark1" x="48" y="20" width="1" height="1" fill="#a6e3a1"/>
+  <rect class="spark2" x="10" y="42" width="1" height="1" fill="#89b4fa"/>
+  <rect class="spark1" x="50" y="38" width="1" height="1" fill="#f9e2af"/>
+</svg>
