@@ -10,7 +10,7 @@
 
 ---
 
-<img align="right" src="https://media.tenor.com/x8v1oNUOmg4AAAAj/load-loading.gif" width="160" alt="pixel cat" />
+<img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-room.svg" width="200" alt="cozy pixel room" />
 
 ### about me
 
@@ -90,7 +90,8 @@ impl CurrentFocus {
 </div>
 
 <div align="center">
-  <sub>built with ☕ and too many tabs open</sub>
+
+<code>// somewhere between caffeine and curiosity ☕</code>
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-bottom.svg" width="100%" alt="pixel wave" />
 
