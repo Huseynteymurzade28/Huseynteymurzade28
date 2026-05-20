@@ -1,135 +1,111 @@
-# <div align="center">🎮 Hüseyn Teymurzade 🎮</div>
-
 <div align="center">
-  
-```
-██╗  ██╗██╗   ██╗███████╗███████╗██╗   ██╗███╗   ██╗
-██║  ██║██║   ██║██╔════╝██╔════╝╚██╗ ██╔╝████╗  ██║
-███████║██║   ██║███████╗█████╗   ╚████╔╝ ██╔██╗ ██║
-██╔══██║██║   ██║╚════██║██╔══╝    ╚██╔╝  ██║╚██╗██║
-██║  ██║╚██████╔╝███████║███████╗   ██║   ██║ ╚████║
-╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═══╝
-```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F700&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Computer+Engineering+Student;Problem+Solver+%26+Code+Enthusiast;Building+Tomorrow's+Technology+Today" alt="Typing SVG" />
+# hi, i'm Hüseyn 🌱
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=A6E3A1&center=true&vCenter=true&width=500&height=40&lines=computer+engineering+%40+marmara;curious+about+low-level+%26+systems;chasing+clean+code+%26+clever+ideas;always+learning+%2C+always+tinkering" alt="typing" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=80&section=header&animation=fadeIn" width="100%" alt="wave" />
+
 </div>
 
+---
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<img align="right" src="https://media.tenor.com/x8v1oNUOmg4AAAAj/load-loading.gif" width="160" alt="pixel cat" />
 
-### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
+### about me
 
 ```python
 class Developer:
     def __init__(self):
-        self.name = "Hüseyn Teymurzade"
-        self.university = "Marmara University"
-        self.major = "Computer Engineering"
-        self.interests = [
-            "Software Development",
-            "Problem Solving",
-            "System Design",
-            "Open Source"
-        ]
-        self.learning = "Everything"
-        self.status = "Ready for opportunities"
-    
+        self.name      = "Hüseyn Teymurzade"
+        self.role      = "CS student & code enthusiast"
+        self.interests = ["software dev", "system design", "open source"]
+        self.learning  = "whatever sparks curiosity"
+        self.status    = "open to opportunities"
+
     def say_hi(self):
-        print("Thanks for stopping by! Let's build something amazing together!")
+        print("thanks for stopping by ☕")
 
 me = Developer()
 me.say_hi()
 ```
 
-<br>
+---
 
-### 🎯 What Drives Me
-
-```diff
-+ 💡 Exploring diverse areas of computer science
-+ 🛠️ Building practical solutions to real-world problems
-+ 🤝 Contributing to open source communities
-+ 📈 Continuous learning and skill development
-+ 🌟 Creating impactful software projects
-```
-
-<br>
-
-## <div align="center">⚡ Tech Arsenal ⚡</div>
+### main skills
 
 <div align="center">
 
-### 💻 Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua&theme=dark)](https://skillicons.dev)
 
-### 🔧 Tools & Technologies
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
-
-### 📊 Development Platforms
-![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)
-![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=git,linux,docker,nix,electron&theme=dark)](https://skillicons.dev)
 
 </div>
 
-### 🌟 Currently Exploring
+---
+
+### currently
 
 ```rust
 struct CurrentFocus {
-    learning: Vec<&'static str>,
-    working_on: Vec<&'static str>,
+    learning:    Vec<&'static str>,
+    working_on:  Vec<&'static str>,
     looking_for: Vec<&'static str>,
-    fun_fact: &'static str,
+    fun_fact:    &'static str,
 }
 
 impl CurrentFocus {
     fn new() -> Self {
         Self {
             learning: vec![
-                "Advanced Algorithms",
-                "System Design",
-                "Software Architecture"
+                "advanced algorithms",
+                "system design",
+                "software architecture",
             ],
             working_on: vec![
-                "Personal Projects",
-                "Open Source Contributions"
+                "personal projects",
+                "open source contributions",
             ],
             looking_for: vec![
-                "Internship Opportunities",
-                "Collaboration Projects"
+                "internship opportunities",
+                "collaboration projects",
             ],
-            fun_fact: "I debug with println!() and I'm not ashamed! 🎮"
+            fun_fact: "i debug with println!() and i'm not ashamed 🎮",
         }
     }
 }
 ```
 
+---
+
+### let's connect
+
 <div align="center">
 
-## 📫 Let's Connect!
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />](https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3)
+[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />](mailto:huseynteymurrr74@gmail.com)
+[<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />](https://www.leetcode.com/flearlyly)
+[<img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" />](https://www.codewars.com/users/Huseyn%20Teymurzade)
 
-<a href="https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:huseynteymurrr74@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://www.leetcode.com/flearlyly" target="_blank">
-  <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
-</a>
-<a href="https://www.codewars.com/users/Huseyn%20Teymurzade" target="_blank">
-  <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" />
-</a>
+</div>
 
+---
+
+### contribution snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/flearlyly/flearlyly/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/flearlyly/flearlyly/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/flearlyly/flearlyly/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+<div align="center">
+  <sub>built with ☕ and too many tabs open</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=80&section=footer&animation=fadeIn" width="100%" alt="wave" />
+
+</div>
