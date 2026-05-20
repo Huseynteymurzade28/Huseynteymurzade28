@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=A6E3A1&center=true&vCenter=true&width=500&height=40&lines=computer+engineering+%40+marmara;curious+about+low-level+%26+systems;chasing+clean+code+%26+clever+ideas;always+learning+%2C+always+tinkering" alt="typing" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=80&section=header&animation=fadeIn" width="100%" alt="wave" />
+<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-top.svg" width="100%" alt="pixel wave" />
 
 </div>
 
@@ -89,23 +89,9 @@ impl CurrentFocus {
 
 </div>
 
----
-
-### contribution snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
 <div align="center">
   <sub>built with ☕ and too many tabs open</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=80&section=footer&animation=fadeIn" width="100%" alt="wave" />
+<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-bottom.svg" width="100%" alt="pixel wave" />
 
 </div>
