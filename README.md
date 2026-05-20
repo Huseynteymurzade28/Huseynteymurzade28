@@ -1,4 +1,4 @@
-<img width="514" height="212" alt="image" src="https://github.com/user-attachments/assets/079ee296-c005-4049-9b02-4a1cb406bb3c" /><img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="70" alt="" />
+<img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="70" alt="" />
 <img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-bird.svg" width="70" alt="" />
 
 <div align="center">
