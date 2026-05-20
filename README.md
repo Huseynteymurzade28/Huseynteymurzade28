@@ -1,15 +1,13 @@
+<img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="70" alt="" />
+<img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-bird.svg" width="70" alt="" />
+
 <div align="center">
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="60" alt="" /></td>
-    <td align="center">
-      <h1>hi, i'm Hüseyn 🌱</h1>
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=A6E3A1&center=true&vCenter=true&width=500&height=40&lines=computer+engineering+%40+marmara;curious+about+low-level+%26+systems;chasing+clean+code+%26+clever+ideas;always+learning+%2C+always+tinkering" alt="typing" />
-    </td>
-    <td><img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-bird.svg" width="60" alt="" /></td>
-  </tr>
-</table>
+# hi, i'm Hüseyn 🌱
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=A6E3A1&center=true&vCenter=true&width=500&height=40&lines=computer+engineering+%40+marmara;curious+about+low-level+%26+systems;chasing+clean+code+%26+clever+ideas;always+learning+%2C+always+tinkering" alt="typing" />
+
+<br clear="all" />
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-top.svg" width="100%" alt="pixel wave" />
 
@@ -42,7 +40,7 @@ me.say_hi()
 ### ✦ main skills
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,git,linux,docker,nix,electron&theme=dark&perline=7" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,jupyter,sqlite,latex&theme=dark&perline=7" alt="skills" />
 </a>
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-coffee.svg" width="400" alt="divider" />
@@ -96,13 +94,14 @@ impl CurrentFocus {
 
 <code>// somewhere between caffeine and curiosity ☕</code>
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-plant.svg" width="60" alt="" /></td>
-    <td width="400"></td>
-    <td><img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-mushroom.svg" width="60" alt="" /></td>
-  </tr>
-</table>
+</div>
+
+<img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-plant.svg" width="70" alt="" />
+<img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-mushroom.svg" width="70" alt="" />
+
+<br clear="all" />
+
+<div align="center">
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-bottom.svg" width="100%" alt="pixel wave" />
 
