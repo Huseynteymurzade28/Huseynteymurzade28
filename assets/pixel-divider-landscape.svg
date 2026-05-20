@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-1px); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50%      { opacity: 1; }
+      }
+      .bird   { animation: float 3s ease-in-out infinite; }
+      .moon   { animation: twinkle 4s ease-in-out infinite; }
+      .star1  { animation: twinkle 2.5s ease-in-out infinite; }
+      .star2  { animation: twinkle 2.5s ease-in-out infinite 1.2s; }
+    </style>
+  </defs>
+
+  <!-- left line -->
+  <rect x="40"  y="14" width="130" height="1" fill="#45475a"/>
+  <rect x="50"  y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+  <rect x="80"  y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+  <rect x="110" y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+  <rect x="140" y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+
+  <!-- left star -->
+  <g class="star1" fill="#f9e2af">
+    <rect x="178" y="4" width="1" height="1"/>
+  </g>
+
+  <!-- small bird flying -->
+  <g class="bird" fill="#cdd6f4">
+    <rect x="186" y="6" width="1" height="1"/>
+    <rect x="187" y="5" width="1" height="1"/>
+    <rect x="188" y="6" width="1" height="1"/>
+    <rect x="189" y="5" width="1" height="1"/>
+    <rect x="190" y="6" width="1" height="1"/>
+  </g>
+
+  <!-- pixel mountains with moon -->
+  <g>
+    <!-- back mountain -->
+    <rect x="194" y="10" width="2" height="4" fill="#45475a"/>
+    <rect x="195" y="8"  width="2" height="6" fill="#45475a"/>
+    <rect x="196" y="6"  width="2" height="8" fill="#45475a"/>
+    <rect x="197" y="8"  width="2" height="6" fill="#45475a"/>
+    <rect x="198" y="10" width="2" height="4" fill="#45475a"/>
+
+    <!-- front mountain (taller) -->
+    <rect x="200" y="12" width="2"  height="2"  fill="#313244"/>
+    <rect x="201" y="10" width="2"  height="4"  fill="#313244"/>
+    <rect x="202" y="8"  width="2"  height="6"  fill="#313244"/>
+    <rect x="203" y="6"  width="2"  height="8"  fill="#313244"/>
+    <rect x="204" y="4"  width="2"  height="10" fill="#313244"/>
+    <rect x="205" y="6"  width="2"  height="8"  fill="#313244"/>
+    <rect x="206" y="8"  width="2"  height="6"  fill="#313244"/>
+    <rect x="207" y="10" width="2"  height="4"  fill="#313244"/>
+    <rect x="208" y="12" width="2"  height="2"  fill="#313244"/>
+
+    <!-- snow cap on tallest peak -->
+    <rect x="204" y="4" width="2" height="2" fill="#cdd6f4"/>
+  </g>
+
+  <!-- pixel moon (right of mountains) -->
+  <g class="moon">
+    <rect x="214" y="4" width="3" height="1" fill="#f9e2af"/>
+    <rect x="213" y="5" width="5" height="1" fill="#f9e2af"/>
+    <rect x="213" y="6" width="5" height="1" fill="#f9e2af"/>
+    <rect x="213" y="7" width="5" height="1" fill="#f9e2af"/>
+    <rect x="214" y="8" width="3" height="1" fill="#f9e2af"/>
+    <!-- crescent shadow -->
+    <rect x="215" y="5" width="3" height="1" fill="#1e1e2e"/>
+    <rect x="215" y="6" width="3" height="1" fill="#1e1e2e"/>
+    <rect x="215" y="7" width="3" height="1" fill="#1e1e2e"/>
+  </g>
+
+  <!-- right star -->
+  <g class="star2" fill="#f9e2af">
+    <rect x="222" y="3" width="1" height="1"/>
+  </g>
+
+  <!-- right line -->
+  <rect x="230" y="14" width="130" height="1" fill="#45475a"/>
+  <rect x="250" y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+  <rect x="280" y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+  <rect x="310" y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+  <rect x="340" y="13" width="2"   height="1" fill="#45475a" opacity="0.5"/>
+</svg>
