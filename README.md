@@ -45,8 +45,6 @@ me.say_hi()
 
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-coffee.svg" width="400" alt="divider" />
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Huseynteymurzade28&show_icons=true&theme=catppuccin_mocha&count_private=true)
-
 </div>
 
 ### ✦ currently
