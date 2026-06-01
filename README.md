@@ -106,3 +106,5 @@ impl CurrentFocus {
 <img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-bottom.svg" width="100%" alt="pixel wave" />
 
 </div>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Huseynteymurzade28)](https://github.com/anuraghazra/github-readme-stats)
