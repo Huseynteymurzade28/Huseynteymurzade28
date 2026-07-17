@@ -1,108 +1,102 @@
-<img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-tree.svg" width="70" alt="" />
-<img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-bird.svg" width="70" alt="" />
-
 <div align="center">
 
-# Hi, I'm Hüseyn 🌱
+<img src="assets/pixel-header.svg" width="100%" alt="HÜSEYN TEYMURZADE — PRESS START" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=A6E3A1&center=true&vCenter=true&width=500&height=40&lines=computer+engineering+%40+marmara;curious+about+low-level+%26+systems;chasing+clean+code+%26+clever+ideas;always+learning+%2C+always+tinkering" alt="typing" />
-
-<br clear="all" />
-
-<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-top.svg" width="100%" alt="pixel wave" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=3500&pause=900&color=FFEC27&center=true&vCenter=true&width=600&height=45&lines=computer+engineering+%40+marmara;low-level+%26+systems+enjoyer;grinding+algorithms+%26+side+quests;always+learning%2C+always+tinkering" alt="typing" />
 
 </div>
 
-<img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-room.svg" width="200" alt="cozy pixel room" />
+<br>
 
-### ✦ about me
+<img align="right" src="assets/pixel-gameboy.svg" width="180" alt="pixel game boy playing pong" />
 
-```python
-class Developer:
-    def __init__(self):
-        self.name      = "Hüseyn Teymurzade"
-        self.role      = "CS student & code enthusiast"
-        self.interests = ["software dev", "system design", "open source"]
-        self.learning  = "whatever sparks curiosity"
-        self.status    = "open to opportunities"
+```rust
+// save_slot_01.rs
+struct Player {
+    name:      &'static str,
+    class:     &'static str,
+    guild:     &'static str,
+    alignment: &'static str,
+}
 
-    def say_hi(self):
-        print("thanks for stopping by ☕")
+const HUSEYN: Player = Player {
+    name:      "Hüseyn Teymurzade",
+    class:     "Computer Engineering Student",
+    guild:     "Marmara University",
+    alignment: "chaotic curious",
+};
 
-me = Developer()
-me.say_hi()
+// favorite biome: the linux terminal
+// ultimate:  println!() driven debugging
 ```
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-terminal.svg" width="400" alt="divider" />
+<img src="assets/pixel-hud.svg" width="640" alt="status bars: power high, caffeine high, sleep low" />
 
-### ✦ main skills
+<img src="assets/pixel-divider-coins.svg" width="100%" alt="" />
+
+<img src="assets/pixel-label-skills.svg" height="52" alt="SKILL TREE" />
+
+<br><br>
 
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,arduino,neovim,postgresql,react,latex&theme=dark&perline=7" alt="skills" />
 </a>
 
-<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-coffee.svg" width="400" alt="divider" />
+<br><br>
+
+<img src="assets/pixel-divider-ground.svg" width="100%" alt="" />
 
 </div>
 
-### ✦ currently
+<img src="assets/pixel-label-quests.svg" height="52" alt="SIDE QUESTS" />
 
 ```rust
-struct CurrentFocus {
-    learning:    Vec<&'static str>,
-    working_on:  Vec<&'static str>,
-    looking_for: Vec<&'static str>,
-    fun_fact:    &'static str,
+struct QuestLog {
+    main_quest:  &'static str,
+    side_quests: Vec<&'static str>,
+    loot_wanted: Vec<&'static str>,
 }
 
-impl CurrentFocus {
-    fn new() -> Self {
-        Self {
-            learning: vec![
-                "advanced algorithms",
-                "system design",
-                "software architecture",
-            ],
-            working_on: vec![
-                "personal projects",
-                "open source contributions",
-            ],
-            looking_for: vec![
-                "internship opportunities",
-                "collaboration projects",
-            ],
-            fun_fact: "i debug with println!() and i'm not ashamed 🎮",
-        }
+fn current_run() -> QuestLog {
+    QuestLog {
+        main_quest: "become a systems wizard",
+        side_quests: vec![
+            "grind advanced algorithms   [######--] ",
+            "level up system design      [####----] ",
+            "open source contributions   [ongoing ] ",
+            "leetcode daily boss fights  [respawns] ",
+        ],
+        loot_wanted: vec!["rare knowledge", "collabs", "cool projects"],
     }
 }
 ```
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-divider-landscape.svg" width="400" alt="divider" />
+<img src="assets/pixel-label-bossfight.svg" height="52" alt="BOSS FIGHT" />
 
-### ✦ let's connect
+<br><br>
 
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />](https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3)
-[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />](mailto:huseynteymurrr74@gmail.com)
-[<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />](https://www.leetcode.com/flearlyly)
-[<img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" />](https://www.codewars.com/users/Huseyn%20Teymurzade)
+<img src="assets/pixel-bossfight.svg" width="880" alt="boss fight: you lv.21 vs legacy codebase lv.99 — a never-ending battle" />
+
+<img src="assets/pixel-divider-coins.svg" width="100%" alt="" />
+
+<img src="assets/pixel-label-connect.svg" height="52" alt="MULTIPLAYER" />
+
+<br><br>
+
+[<img src="assets/pixel-btn-linkedin.svg" height="40" alt="LinkedIn" />](https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3)
+&nbsp;
+[<img src="assets/pixel-btn-email.svg" height="40" alt="Email" />](mailto:huseynteymurrr74@gmail.com)
+&nbsp;
+[<img src="assets/pixel-btn-leetcode.svg" height="40" alt="LeetCode" />](https://www.leetcode.com/flearlyly)
+&nbsp;
+[<img src="assets/pixel-btn-codewars.svg" height="40" alt="Codewars" />](https://www.codewars.com/users/Huseyn%20Teymurzade)
 
 <br>
 
-<code>// somewhere between caffeine and curiosity ☕</code>
-
-</div>
-
-<img align="left" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-plant.svg" width="70" alt="" />
-<img align="right" src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-mushroom.svg" width="70" alt="" />
-
-<br clear="all" />
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Huseynteymurzade28/Huseynteymurzade28/main/assets/pixel-wave-bottom.svg" width="100%" alt="pixel wave" />
+<img src="assets/pixel-footer.svg" width="100%" alt="THANKS FOR PLAYING — INSERT COIN TO CONTINUE" />
 
 </div>
