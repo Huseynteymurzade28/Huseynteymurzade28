@@ -1,102 +1,49 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/line-header-dark.svg">
+  <img src="assets/line-header-light.svg" width="100%" alt="Hüseyn Teymurzade — computer engineering @ Marmara University">
+</picture>
 
-<img src="assets/pixel-header.svg" width="100%" alt="HÜSEYN TEYMURZADE — PRESS START" />
+I write software close to the machine — allocators, interpreters, emulators —
+and terminal programs that are pleasant to live in. Mostly Rust, C, Zig and Go,
+on Linux. Computer engineering at Marmara University; open to internships.
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=3500&pause=900&color=FFEC27&center=true&vCenter=true&width=600&height=45&lines=computer+engineering+%40+marmara;low-level+%26+systems+enjoyer;grinding+algorithms+%26+side+quests;always+learning%2C+always+tinkering" alt="typing" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/topo-dark.svg">
+  <img src="assets/topo-light.svg" width="100%" alt="contour lines of a Perlin noise field, drawn as thin ink lines with every fourth contour in orange">
+</picture>
+<sub>contour lines over a Perlin field, marching squares, no dependencies — <a href="assets/gen/plot.py">assets/gen/plot.py</a></sub>
 
-</div>
+### Focus
 
-<br>
-
-<img align="right" src="assets/pixel-gameboy.svg" width="180" alt="pixel game boy playing pong" />
-
-```rust
-// save_slot_01.rs
-struct Player {
-    name:      &'static str,
-    class:     &'static str,
-    guild:     &'static str,
-    alignment: &'static str,
-}
-
-const HUSEYN: Player = Player {
-    name:      "Hüseyn Teymurzade",
-    class:     "Computer Engineering Student",
-    guild:     "Marmara University",
-    alignment: "chaotic curious",
-};
-
-// favorite biome: the linux terminal
-// ultimate:  println!() driven debugging
+```
+.
+├── runtimes/    hand-rolled allocators, a Lisp with real closures, a CHIP-8 — how bytes become behaviour
+├── terminal/    TUIs that stay responsive under async I/O; Kitty/Sixel pixels with a half-block fallback; LAN protocols
+├── graphics/    Perlin and Worley noise, hillshading, normal maps, a PNG encoder — no crates, on purpose
+└── boundaries/  Zig engines behind Python ctypes; CRDT state over WebSockets; shared objects that link nothing
 ```
 
-<div align="center">
+### Toolbox
 
-<img src="assets/pixel-hud.svg" width="640" alt="status bars: power high, caffeine high, sleep low" />
-
-<img src="assets/pixel-divider-coins.svg" width="100%" alt="" />
-
-<img src="assets/pixel-label-skills.svg" height="52" alt="SKILL TREE" />
-
-<br><br>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,python,js,ts,go,lua,bash,git,vim,linux,docker,nix,electron,arduino,neovim,postgresql,react,latex&theme=dark&perline=7" alt="skills" />
-</a>
-
-<br><br>
-
-<img src="assets/pixel-divider-ground.svg" width="100%" alt="" />
-
-</div>
-
-<img src="assets/pixel-label-quests.svg" height="52" alt="SIDE QUESTS" />
-
-```rust
-struct QuestLog {
-    main_quest:  &'static str,
-    side_quests: Vec<&'static str>,
-    loot_wanted: Vec<&'static str>,
-}
-
-fn current_run() -> QuestLog {
-    QuestLog {
-        main_quest: "become a systems wizard",
-        side_quests: vec![
-            "grind advanced algorithms   [######--] ",
-            "level up system design      [####----] ",
-            "open source contributions   [ongoing ] ",
-            "leetcode daily boss fights  [respawns] ",
-        ],
-        loot_wanted: vec!["rare knowledge", "collabs", "cool projects"],
-    }
-}
+```
+systems      C · Rust · Zig · Go
+also         Python · TypeScript · Lua · Odin
+terminal     Ratatui · Bubbletea · egui · raylib · SDL2
+around them  Linux · Neovim · Nix · Git · Docker · PostgreSQL
 ```
 
-<div align="center">
+### Elsewhere
 
-<img src="assets/pixel-label-bossfight.svg" height="52" alt="BOSS FIGHT" />
+[LinkedIn](https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3) ·
+[Email](mailto:huseynteymurrr74@gmail.com) ·
+[LeetCode](https://www.leetcode.com/flearlyly) ·
+[Codewars](https://www.codewars.com/users/Huseyn%20Teymurzade)
 
-<br><br>
-
-<img src="assets/pixel-bossfight.svg" width="880" alt="boss fight: you lv.21 vs legacy codebase lv.99 — a never-ending battle" />
-
-<img src="assets/pixel-divider-coins.svg" width="100%" alt="" />
-
-<img src="assets/pixel-label-connect.svg" height="52" alt="MULTIPLAYER" />
-
-<br><br>
-
-[<img src="assets/pixel-btn-linkedin.svg" height="40" alt="LinkedIn" />](https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3)
-&nbsp;
-[<img src="assets/pixel-btn-email.svg" height="40" alt="Email" />](mailto:huseynteymurrr74@gmail.com)
-&nbsp;
-[<img src="assets/pixel-btn-leetcode.svg" height="40" alt="LeetCode" />](https://www.leetcode.com/flearlyly)
-&nbsp;
-[<img src="assets/pixel-btn-codewars.svg" height="40" alt="Codewars" />](https://www.codewars.com/users/Huseyn%20Teymurzade)
-
-<br>
-
-<img src="assets/pixel-footer.svg" width="100%" alt="THANKS FOR PLAYING — INSERT COIN TO CONTINUE" />
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/mark-dark.svg">
+    <img src="assets/mark-light.svg" width="110" alt="a damped harmonograph curve">
+  </picture>
+  <br>
+  <sub>Most of this runs in a terminal. Most of the rest wishes it did.</sub>
+</p>
