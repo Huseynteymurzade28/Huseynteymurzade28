@@ -30,8 +30,8 @@ on Linux. Computer engineering at Marmara University; open to internships.
     <td align="right"><sub>systems</sub></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,rust,zig,go&theme=dark">
-        <img src="https://skillicons.dev/icons?i=c,cpp,rust,zig,go&theme=light" height="40" alt="C, C++, Rust, Zig, Go" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=dark">
+        <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=light" height="40" alt="C, C++, Rust, Zig, Go" />
       </picture>
     </td>
   </tr>
@@ -39,8 +39,8 @@ on Linux. Computer engineering at Marmara University; open to internships.
     <td align="right"><sub>also</sub></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,lua,bash&theme=dark">
-        <img src="https://skillicons.dev/icons?i=python,ts,lua,bash&theme=light" height="40" alt="Python, TypeScript, Lua, Bash" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=dark">
+        <img src="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=light" height="40" alt="Python, TypeScript, Lua, Bash" />
       </picture>
       <sub>&nbsp;· Odin</sub>
     </td>
@@ -49,8 +49,8 @@ on Linux. Computer engineering at Marmara University; open to internships.
     <td align="right"><sub>around them</sub></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,neovim,nix,git,docker,postgres&theme=dark">
-        <img src="https://skillicons.dev/icons?i=linux,neovim,nix,git,docker,postgres&theme=light" height="40" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=dark">
+        <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=light" height="40" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL" />
       </picture>
     </td>
   </tr>
