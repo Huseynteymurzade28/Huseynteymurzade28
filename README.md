@@ -52,8 +52,6 @@ fn main() {
   </picture>
 </p>
 
-<sub>also Odin · Ratatui · Bubbletea · egui · raylib · SDL2</sub>
-
 ### Elsewhere
 
 <p>
