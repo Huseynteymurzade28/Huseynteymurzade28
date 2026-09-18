@@ -3,9 +3,10 @@
   <img src="assets/line-header-light.svg" width="100%" alt="Hüseyn Teymurzade — computer engineering @ Marmara University">
 </picture>
 
-I write software close to the machine — allocators, interpreters, emulators —
-and terminal programs that are pleasant to live in. Mostly Rust, C, Zig and Go,
-on Linux.
+I build whatever I'm curious about that week. What I keep coming back to is the
+low-level side — allocators, interpreters, emulators — and terminal programs
+that are pleasant to live in; everything else is fair game. Mostly Rust, C, Zig
+and Go, on Linux.
 
 <p align="center">
   <img src="assets/desk.svg" width="100%" alt="pixel art: a desk at night — string lights, a monitor with code, coffee, a lamp and a cat asleep" />
@@ -47,8 +48,8 @@ fn main() {
   </picture>
   <br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=dark">
-    <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=light" height="48" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres%2Csupabase%2Cvercel%2Craspberrypi%2Carduino&theme=dark">
+    <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres%2Csupabase%2Cvercel%2Craspberrypi%2Carduino&theme=light" height="48" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL, Supabase, Vercel, Raspberry Pi, Arduino" />
   </picture>
 </p>
 
