@@ -9,8 +9,6 @@ on Linux.
 
 <p align="center">
   <img src="assets/desk.svg" width="100%" alt="pixel art: a desk at night — string lights, a monitor with code, coffee, a lamp and a cat asleep" />
-  <br>
-  <sub>drawn pixel by pixel in <a href="assets/gen/pixel.py">assets/gen/pixel.py</a> · PICO-8 palette</sub>
 </p>
 
 ### Focus
@@ -25,40 +23,36 @@ on Linux.
 
 ### Toolbox
 
-<table>
-  <tr>
-    <td align="right"><sub>systems</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=dark">
-        <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=light" height="40" alt="C, C++, Rust, Zig, Go" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub>also</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=dark">
-        <img src="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=light" height="40" alt="Python, TypeScript, Lua, Bash" />
-      </picture>
-      <sub>&nbsp;· Odin</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub>around them</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=dark">
-        <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=light" height="40" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub>in the terminal</sub></td>
-    <td><sub>Ratatui · Bubbletea · egui · raylib · SDL2</sub></td>
-  </tr>
-</table>
+<p>
+  <img src="assets/lbl-systems.svg" height="48" alt="systems" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=dark">
+    <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=light" height="48" alt="C, C++, Rust, Zig, Go" />
+  </picture>
+</p>
+<p>
+  <img src="assets/lbl-also.svg" height="48" alt="also" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=dark">
+    <img src="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=light" height="48" alt="Python, TypeScript, Lua, Bash" />
+  </picture>
+  <img src="assets/chip-odin.svg" height="48" alt="odin" />
+</p>
+<p>
+  <img src="assets/lbl-around-them.svg" height="48" alt="around them" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=dark">
+    <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=light" height="48" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL" />
+  </picture>
+</p>
+<p>
+  <img src="assets/lbl-in-the-terminal.svg" height="48" alt="in the terminal" />
+  <img src="assets/chip-ratatui.svg" height="48" alt="ratatui" />
+  <img src="assets/chip-bubbletea.svg" height="48" alt="bubbletea" />
+  <img src="assets/chip-egui.svg" height="48" alt="egui" />
+  <img src="assets/chip-raylib.svg" height="48" alt="raylib" />
+  <img src="assets/chip-sdl2.svg" height="48" alt="sdl2" />
+</p>
 
 ### Elsewhere
 
