@@ -11,48 +11,48 @@ on Linux.
   <img src="assets/desk.svg" width="100%" alt="pixel art: a desk at night — string lights, a monitor with code, coffee, a lamp and a cat asleep" />
 </p>
 
-### Focus
+```rust
+// about.rs
 
-```
-.
-├── runtimes/    hand-rolled allocators, a Lisp with real closures, a CHIP-8 — how bytes become behaviour
-├── terminal/    TUIs that stay responsive under async I/O; Kitty/Sixel pixels with a half-block fallback; LAN protocols
-├── graphics/    Perlin and Worley noise, hillshading, normal maps, a PNG encoder — no crates, on purpose
-└── boundaries/  Zig engines behind Python ctypes; CRDT state over WebSockets; shared objects that link nothing
+struct Huseyn {
+    studies:     &'static str,
+    writes:      &'static [&'static str],
+    cares_about: &'static [&'static str],
+    lives_in:    &'static str,
+}
+
+const ME: Huseyn = Huseyn {
+    studies:     "computer engineering, marmara university",
+    writes:      &["rust", "c", "zig", "go"],
+    cares_about: &["memory layouts", "schedulers", "interpreters", "terminals"],
+    lives_in:    "a tty, on linux",
+};
+
+fn main() {
+    println!("{}", ME.studies);
+    println!("writes {} · lives in {}", ME.writes.join(", "), ME.lives_in);
+    for thing in ME.cares_about {
+        // take it apart, see how it works, put it back together
+        println!("  {thing}");
+    }
+}
 ```
 
 ### Toolbox
 
 <p>
-  <img src="assets/lbl-systems.svg" height="48" alt="systems" />
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=dark">
-    <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo&theme=light" height="48" alt="C, C++, Rust, Zig, Go" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo%2Cpython%2Cts%2Clua%2Cbash&theme=dark">
+    <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo%2Cpython%2Cts%2Clua%2Cbash&theme=light" height="48" alt="C, C++, Rust, Zig, Go, Python, TypeScript, Lua, Bash" />
   </picture>
-</p>
-<p>
-  <img src="assets/lbl-also.svg" height="48" alt="also" />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=dark">
-    <img src="https://skillicons.dev/icons?i=python%2Cts%2Clua%2Cbash&theme=light" height="48" alt="Python, TypeScript, Lua, Bash" />
-  </picture>
-  <img src="assets/chip-odin.svg" height="48" alt="odin" />
-</p>
-<p>
-  <img src="assets/lbl-around-them.svg" height="48" alt="around them" />
+  <br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=dark">
     <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres&theme=light" height="48" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL" />
   </picture>
 </p>
-<p>
-  <img src="assets/lbl-in-the-terminal.svg" height="48" alt="in the terminal" />
-  <img src="assets/chip-ratatui.svg" height="48" alt="ratatui" />
-  <img src="assets/chip-bubbletea.svg" height="48" alt="bubbletea" />
-  <img src="assets/chip-egui.svg" height="48" alt="egui" />
-  <img src="assets/chip-raylib.svg" height="48" alt="raylib" />
-  <img src="assets/chip-sdl2.svg" height="48" alt="sdl2" />
-</p>
+
+<sub>also Odin · Ratatui · Bubbletea · egui · raylib · SDL2</sub>
 
 ### Elsewhere
 

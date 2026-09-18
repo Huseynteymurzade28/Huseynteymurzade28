@@ -3,8 +3,6 @@
 
   desk.svg      a desk at night: string lights, monitor, coffee, a cat
   btn-*.svg     link buttons
-  lbl-*.svg     row labels for the toolbox, 3x5 pixel font
-  chip-*.svg    48px tiles for tools that have no icon on skillicons.dev
 
 No dependencies.  python3 assets/gen/pixel.py
 """
@@ -12,7 +10,7 @@ import random
 
 P = dict(k="#1D2B53", K="#10193A", w="#FFF1E8", s="#FFCCAA", b="#AB5236", B="#7A3A22",
          d="#7E2553", y="#FFEC27", o="#FFA300", g="#00E436", G="#5F574F", l="#C2C3C7",
-         m="#83769C", p="#FF77A8", r="#FF004D", c="#29ADFF", e="#008751", n="#000000", j="#2A3F6E", L="#8C959F")
+         m="#83769C", p="#FF77A8", r="#FF004D", c="#29ADFF", e="#008751", n="#000000", j="#2A3F6E")
 
 class Canvas:
     def __init__(s, w, h, bg=None):
@@ -143,43 +141,6 @@ def desk():
     return cv
 
 
-# ---------------------------------------------------------------- 3x5 font
-FONT = {ch: rows.split() for ch, rows in {
-    "A": ".x. x.x xxx x.x x.x", "B": "xx. x.x xx. x.x xx.", "C": ".xx x.. x.. x.. .xx",
-    "D": "xx. x.x x.x x.x xx.", "E": "xxx x.. xx. x.. xxx", "F": "xxx x.. xx. x.. x..",
-    "G": ".xx x.. x.x x.x .xx", "H": "x.x x.x xxx x.x x.x", "I": "xxx .x. .x. .x. xxx",
-    "J": "..x ..x ..x x.x .x.", "K": "x.x x.x xx. x.x x.x", "L": "x.. x.. x.. x.. xxx",
-    "M": "x.x xxx xxx x.x x.x", "N": "xx. x.x x.x x.x x.x", "O": "xxx x.x x.x x.x xxx",
-    "P": "xx. x.x xx. x.. x..", "Q": "xxx x.x x.x xxx ..x", "R": "xx. x.x xx. x.x x.x",
-    "S": ".xx x.. .x. ..x xx.", "T": "xxx .x. .x. .x. .x.", "U": "x.x x.x x.x x.x xxx",
-    "V": "x.x x.x x.x x.x .x.", "W": "x.x x.x x.x xxx x.x", "X": "x.x x.x .x. x.x x.x",
-    "Y": "x.x x.x .x. .x. .x.", "Z": "xxx ..x .x. x.. xxx", "2": "xxx ..x xxx x.. xxx",
-    " ": "... ... ... ... ...",
-}.items()}
-
-def text_width(t): return len(t) * 4 - 1
-
-def draw_text(cv, x, y, t, col):
-    for ch in t.upper():
-        cv.blit(x, y, FONT[ch], {"x": col})
-        x += 4
-
-def chip(text, accent, ink="K"):
-    """A 48px-tall rounded tile with the name in pixel type, for tools skillicons lacks."""
-    S, H = 3, 16
-    W = text_width(text) + 6
-    cv = Canvas(W, H, accent)
-    draw_text(cv, 3, 6, text, ink)
-    return cv.svg(S, text, rx=10)
-
-def label(text, width_px=132):
-    """A right-aligned row label, 48px tall to sit level with the icons."""
-    S, H = 2, 24
-    W = width_px // S
-    cv = Canvas(W, H, None)
-    draw_text(cv, W - text_width(text), 10, text, "L")
-    return cv.svg(S, text)
-
 # ---------------------------------------------------------------- buttons
 def button(label, glyph_rows, accent):
     # 8px-tall pixel font would be overkill; the label is rendered as SVG text next to a pixel glyph
@@ -211,8 +172,3 @@ if __name__ == "__main__":
     for name, (title, rows, acc) in GLYPHS.items():
         with open(f"assets/btn-{name}.svg", "w") as f: f.write(button(title, rows, acc))
         print(f"assets/btn-{name}.svg")
-    for t in ("systems", "also", "around them", "in the terminal"):
-        with open(f"assets/lbl-{t.replace(' ', '-')}.svg", "w") as f: f.write(label(t))
-    for t, acc in (("odin", "c"), ("ratatui", "o"), ("bubbletea", "p"), ("egui", "y"), ("raylib", "w"), ("sdl2", "g")):
-        with open(f"assets/chip-{t}.svg", "w") as f: f.write(chip(t, acc))
-    print("labels, chips")
