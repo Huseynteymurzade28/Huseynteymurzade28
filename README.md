@@ -5,7 +5,7 @@
 
 I write software close to the machine — allocators, interpreters, emulators —
 and terminal programs that are pleasant to live in. Mostly Rust, C, Zig and Go,
-on Linux. Computer engineering at Marmara University; open to internships.
+on Linux.
 
 <p align="center">
   <img src="assets/desk.svg" width="100%" alt="pixel art: a desk at night — string lights, a monitor with code, coffee, a lamp and a cat asleep" />
