@@ -1,16 +1,16 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/line-header-dark.svg">
-  <img src="assets/line-header-light.svg" width="100%" alt="Hüseyn Teymurzade — computer engineering @ Marmara University">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Hüseyn Teymurzade — computer engineering @ Marmara University">
 </picture>
+
+<p align="center">
+  <img src="assets/dusk.svg" width="100%" alt="pixel art: a desk under a window at dusk — the Bosphorus bridge outside, a cat on the sill, a glass of tea, code on the monitor under a warm lamp" />
+</p>
 
 I build whatever I'm curious about that week. What I keep coming back to is the
 low-level side — allocators, interpreters, emulators — and terminal programs
 that are pleasant to live in; everything else is fair game. Mostly Rust, C, Zig
 and Go, on Linux.
-
-<p align="center">
-  <img src="assets/desk.svg" width="100%" alt="pixel art: a desk at night — string lights, a monitor with code, coffee, a lamp and a cat asleep" />
-</p>
 
 ```rust
 // about.rs
@@ -63,3 +63,5 @@ fn main() {
 </p>
 
 <sub>Most of this runs in a terminal. Most of the rest wishes it did.</sub>
+
+<img src="assets/palette.svg" height="9" alt="" />
