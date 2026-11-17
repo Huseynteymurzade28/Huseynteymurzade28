@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """The small pieces around the scene, in the same font and palette:
 
-  header-{dark,light}.svg   name and two lines, pixel type
+  header-{dark,light}.svg   name + one line, pixel type
   btn-*.svg                 link buttons
-  palette.svg               the colours dusk.svg is painted with
 
 No dependencies.  python3 assets/gen/ui.py
 """
@@ -25,12 +24,19 @@ def big(cv, x, y, string, c, k=2, accent=None):
         x += (len(g[0]) + 1) * k
     return x
 
-def header(name_c, sub_c, low_c):
-    cv = Canvas(300, 46)
-    big(cv, 1, 1, "Hüseyn Teymurzade", name_c, accent=ORANGE)
-    cv.text(1, 24, "computer engineering · marmara university", sub_c)
-    cv.text(1, 36, "low-level, systems, and the layers underneath", low_c)
-    return svg(cv, scale=5, label="Hüseyn Teymurzade — computer engineering, Marmara University")
+LINE = "I build whatever I'm curious about."
+
+def header(name_c, line_c):
+    """the name, one line under it, and a blinking cursor; centred"""
+    nw = big(Canvas(1, 1), 0, 0, "Hüseyn Teymurzade", name_c) - 2
+    W = nw + 24
+    cv, cur = Canvas(W, 33), Canvas(W, 33)
+    big(cv, (W - nw) // 2, 3, "Hüseyn Teymurzade", name_c, accent=ORANGE)
+    lw = text_width(LINE) + 5
+    x = cv.text((W - lw) // 2, 25, LINE, line_c)
+    cur.rect(x + 1, 25, 3, 5, ORANGE)
+    css = ".c{animation:b 1.1s steps(1) infinite}@keyframes b{50%{opacity:0}}"
+    return svg(cv, [(cur, "c")], scale=4, label=f"Hüseyn Teymurzade — {LINE}", css=css)
 
 GLYPHS = {
     "linkedin": ("LinkedIn", ["x......", ".......", "x..xxx.", "x..x..x", "x..x..x", "x..x..x", "x..x..x"], "#7fa8d8"),
@@ -47,17 +53,9 @@ def button(label, rows, accent):
     cv.text(15, 2, label, MID)
     return svg(cv, scale=3, label=label)
 
-def palette():
-    cols = ["#10133a", "#1f2566", "#2f2d7c", "#4b3689", "#7a4390", "#b5557f", "#e07a6a", "#f2a65a", "#ffd86b",
-            "#f4ecd8", "#7fe0d0", "#3f8f4f", "#b5573a", "#8a5a3a", "#2b1d2e"]
-    cv = Canvas(len(cols) * 4 - 1, 3)
-    for n, c in enumerate(cols): cv.rect(n * 4, 0, 3, 3, c)
-    return svg(cv, scale=4, label="the palette")
-
 if __name__ == "__main__":
-    files = {"header-dark.svg": header(CREAM, MID, LOW), "header-light.svg": header(INK, LOW, MID), "palette.svg": palette()}
+    files = {"header-dark.svg": header(CREAM, MID), "header-light.svg": header(INK, LOW)}
     files.update({f"btn-{k}.svg": button(*v) for k, v in GLYPHS.items()})
     for name, body in files.items():
         with open(os.path.join(HERE, name), "w") as f: f.write(body)
         print(name)
-    print(text_width("computer engineering · marmara university"), text_width("low-level, systems, and the layers underneath"))

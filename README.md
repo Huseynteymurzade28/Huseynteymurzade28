@@ -1,67 +1,12 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Hüseyn Teymurzade — computer engineering @ Marmara University">
-</picture>
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" width="560" alt="Hüseyn Teymurzade — I build whatever I'm curious about.">
+  </picture>
+</p>
 
 <p align="center">
   <img src="assets/dusk.svg" width="100%" alt="pixel art: a desk under a window at dusk — the Bosphorus bridge outside, a cat on the sill, a glass of tea, code on the monitor under a warm lamp" />
 </p>
-
-I build whatever I'm curious about that week. What I keep coming back to is the
-low-level side — allocators, interpreters, emulators — and terminal programs
-that are pleasant to live in; everything else is fair game. Mostly Rust, C, Zig
-and Go, on Linux.
-
-```rust
-// about.rs
-
-struct Huseyn {
-    studies:     &'static str,
-    writes:      &'static [&'static str],
-    cares_about: &'static [&'static str],
-    lives_in:    &'static str,
-}
-
-const ME: Huseyn = Huseyn {
-    studies:     "computer engineering, marmara university",
-    writes:      &["rust", "c", "zig", "go"],
-    cares_about: &["memory layouts", "schedulers", "interpreters", "terminals"],
-    lives_in:    "a tty, on linux",
-};
-
-fn main() {
-    println!("{}", ME.studies);
-    println!("writes {} · lives in {}", ME.writes.join(", "), ME.lives_in);
-    for thing in ME.cares_about {
-        // take it apart, see how it works, put it back together
-        println!("  {thing}");
-    }
-}
-```
-
-### Toolbox
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo%2Cpython%2Cts%2Clua%2Cbash&theme=dark">
-    <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Crust%2Czig%2Cgo%2Cpython%2Cts%2Clua%2Cbash&theme=light" height="48" alt="C, C++, Rust, Zig, Go, Python, TypeScript, Lua, Bash" />
-  </picture>
-  <br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres%2Csupabase%2Cvercel%2Craspberrypi%2Carduino&theme=dark">
-    <img src="https://skillicons.dev/icons?i=linux%2Cneovim%2Cnix%2Cgit%2Cdocker%2Cpostgres%2Csupabase%2Cvercel%2Craspberrypi%2Carduino&theme=light" height="48" alt="Linux, Neovim, Nix, Git, Docker, PostgreSQL, Supabase, Vercel, Raspberry Pi, Arduino" />
-  </picture>
-</p>
-
-### Elsewhere
-
-<p>
-  <a href="https://www.linkedin.com/in/hüseyn-teymurzade-9492a92b3"><img src="assets/btn-linkedin.svg" height="33" alt="LinkedIn" /></a>&nbsp;&nbsp;
-  <a href="mailto:huseynteymurrr74@gmail.com"><img src="assets/btn-email.svg" height="33" alt="Email" /></a>&nbsp;&nbsp;
-  <a href="https://www.leetcode.com/flearlyly"><img src="assets/btn-leetcode.svg" height="33" alt="LeetCode" /></a>&nbsp;&nbsp;
-  <a href="https://www.codewars.com/users/Huseyn%20Teymurzade"><img src="assets/btn-codewars.svg" height="33" alt="Codewars" /></a>
-</p>
-
-<sub>Most of this runs in a terminal. Most of the rest wishes it did.</sub>
-
-<img src="assets/palette.svg" height="9" alt="" />
